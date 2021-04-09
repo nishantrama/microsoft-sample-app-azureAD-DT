@@ -3,6 +3,9 @@
 Here is the sample build.gradle file to build out the sample app from: 
 https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-v2-android#how-the-sample-works
 
+![image](https://user-images.githubusercontent.com/21251848/114133333-c3b9ba00-98ba-11eb-9393-0e0a21c2ff98.png)
+
+
 Basically this app will make a graph API call through azure AD using an existing login through android and then pull back your AD info into the app. the buold.gradle file has the necessary Dynatrace instrumentation to actually instrument the app and then have those calls show up in your Dynatrace tenant: 
 https://www.dynatrace.com/support/help/technology-support/operating-systems/android/instrumentation-via-plugin/instrumentation-via-plugin/
 
